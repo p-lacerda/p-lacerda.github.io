@@ -1,9 +1,14 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App(): JSX.Element {
   return (
     <div className="App">
-      <h1>Paulo Lacerda</h1>
+      <Navbar />
+      <Main />
+      <Footer />
     </div>
   );
 }
