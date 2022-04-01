@@ -19,6 +19,7 @@ export default function NavbarContainer({ children }: Props): JSX.Element {
       bg={['black']}
       color={['white', 'white', 'primary.700', 'primary.700']}
       position="sticky"
+      zIndex="overlay"
     >
       { children }
     </Flex>
